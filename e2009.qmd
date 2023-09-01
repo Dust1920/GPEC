@@ -1,0 +1,140 @@
+# Examen 2009
+
+Aqui veremos la solución de los problemas del examen general de 2009.
+
+::: callout-note
+Todos los espacios y variables aleatorias considerados en este examen se referiran a un espacio de probabilidad.$(\Omega, \mathcal{F},\mathcal{P})$
+:::
+
+## Problema 1
+
+Demuestre que :
+
+1.  Para cualesquiera eventos $E$ y $F$ 
+$$
+|\mathcal{P}(E)-\mathcal{P}(F)|\leq \mathcal{P}(E\triangle F)
+$$
+
+
+
+
+2.  Si $X$ y $Y$ son v.a's y $A\in\mathcal{F}$ entonces 
+$$
+\left|\mathcal{P}\left[X\in A\right]-\mathcal{P}\left[Y\in A\right]\right|\leq\mathcal{P}\left[X\neq Y\right]
+$$
+
+### Solución (1.)
+Observemos que $F=\left(F\cap E\right)\cup\left(F\cap E^{\complement}\right)$,
+donde ambos conjuntos son disjuntos, esto implica que
+$$
+\mathcal{P}\left(F\right)=\mathcal{P}\left(F\cap E\right)+\mathcal{P}\left(F\cap E^{\complement}\right),
+$$
+
+análogamente para $E$ 
+$$
+\mathcal{P}\left(E\right)=\mathcal{P}\left(E\cap F\right)+\mathcal{P}\left(E\cap F^{\complement}\right).
+$$
+
+Por otro lado 
+$$
+\mathcal{P}\left(E\triangle F\right)=\mathcal{P}\left(E\cap F^{\complement}\cup F\cap E^{\complement}\right),
+$$
+
+como $E\cap F^{\complement}$ y $F\cap E^{\complement}$ son conjuntos
+disjuntos entonces 
+$$
+\mathcal{P}\left(E\triangle F\right)=\mathcal{P}\left(E\cap F^{\complement}\right)+\mathcal{P}\left(F\cap E^{\complement}\right).
+$$
+
+Ahora considere 
+\begin{align*}
+\mathcal{P}\left(F\right)-\mathcal{P}\left(E\right) & =\mathcal{P}\left(F\cap E^{\complement}\right)-\mathcal{P}\left(E\cap F^{\complement}\right)\\
+ & \leq\mathcal{P}\left(E\triangle F\right),
+\end{align*}
+
+de forma análoga tenemos que 
+$$
+\mathcal{P}\left(E\right)-\mathcal{P}\left(F\right)\leq\mathcal{P}\left(E\triangle F\right).
+$$
+
+Concluyendo entonces 
+$$
+\left|\mathcal{P}\left(F\right)-\mathcal{P}\left(E\right)\right|\leq\mathcal{P}\left(E\triangle F\right)
+$$
+
+### Solución (1.2)
+
+## Problema 2
+Sean $\left(X_{n}\right)$ una sucesión de v.a's que converge en distribución a $X$.
+
+1. Demuestre que para todo $\epsilon>0$ existen $\alpha,\beta\in\mathbb{R},a<\beta$ tal que 
+$$
+\mathcal{P}\left[X_{n}\in\left[\alpha,\beta\right]\right]\geq1-\epsilon,\forall n\in\mathbb{N}
+$$
+
+2.  Sea $S_{n}={\displaystyle \sum_{k=1}^{n}X_{k}}$. Demuestre que si $\dfrac{S_{n}}{\sqrt{n}}$ converge en distribución a una v.a $Y$, entonces
+
+$$
+\dfrac{S_{n}}{n}\stackrel{\mathcal{P}}{\longrightarrow}0
+$$
+
+## Problema 3
+Sea $\left(X_{n}\right)$ una sucesión de v.a's independientes e identicamente distribuidas con distribución uniforme en $\left(0,1\right)$. Demuestre que $M_{n}={\displaystyle \max_{i\leq i\leq n}X_{i}}$ converge en probabilidad cuando $n\to\infty$.
+
+## Problema 4
+Suponga que $X_{n}$ tiene función de densidad $f_{n}\left(x\right)=\dfrac{n}{\sqrt{x}}\exp\left(-\left(nx-n-1\right)^{2}\right),n=1,2\ldots$. Demuestre que $\left(X_{n}\right)$ converge en probabilidad a una
+constante. 
+
+## Problema 5
+Sea $\left(X_{n}\right)$ una sucesión de v.a's independientes tales que $\mathcal{P}\left[X_{n}=1\right]=p$ y $\mathcal{P}\left[X_{n}=-1\right]=1-p,n=1,2,\ldots$, con $p\in\left(0,1\right),p\neq1/2$. Denotemos $S_{0}=0$, 
+$$
+S_{n}=\sum_{i=1}^{n}X_{i},n=1,2,\ldots
+$$
+
+1. Calcular $\mathcal{P}\left[S_{n}=0\right]$ para $n=1,2,\ldots$
+2. Demostrar que $\sum_{n=0}^{\infty}\mathcal{P}\left[S_{n}=0\right]<\infty$.
+3. Calcular $\mathcal{P}\left[S_{n}=0\text{ i.o}\right]$ 
+
+::: {.callout-tip title="Factorial"}
+Use la formula de Stirling: $n! \sim \sqrt{2\pi n}(n/e)^n$
+:::
+
+## Problema 6
+Tomando $\left(X_{n}\right)$ y $\left(S_{n}\right)$ como en el problema
+anterior, pero con $p=1/2$. 
+
+1. Verificar que para toda $t\in\mathbb{R}$, $E\left[e^{tX_{n}}\right]=\cosh\left(t\right)$.
+2. Deducir que para toda $t\in\mathbb{R}$, $E\left[e^{tX_{n}}\right]\leq e^{t/2}$
+
+::: {.callout-tip title="Taylor"}
+Utilice el desarrollo de Taylor de ambos términos de la desigualdad en (1.)
+:::
+
+3. Demostrar que para todas $a>0,n\geq1$ y $u>0$ se tiene que 
+$$
+\mathcal{P}\left[S_{n}>a\right]\leq\exp\left[n\dfrac{u^{2}}{2}-ua\right]
+$$
+
+4. Demostrar que $\mathcal{P}\left[S_{n}>a\right]\leq e^{-a^{2}/2n}$
+y por lo tanto 
+$$
+\mathcal{P}\left[\left|S_{n}\right|>a\right]\leq2\exp\left(-\dfrac{a^{2}}{2n}\right)
+$$
+
+5. Sea $c>1$. Demostrar que, con probabilidad $1$, para $n$ suficientemente
+grande se tiene que $S_{n}\leq c\sqrt{2n\ln\left(n\right)}$
+
+## Problema 7
+1. Pruebe que si $X\in L_p$ para algun $p>0$, entonces 
+$$
+\lim_{t\to\infty}t^p\mathcal{P}[|X|>t]=0
+$$
+
+2. Pruebe que (1.) implica que $X\in L_p$ para toda $q\in(0,p)$.
+
+::: {.callout-tip title="Fubini-Tonelli"}
+Use el Teorema de Fubini-Tonelli a ${\displaystyle \int_0^\infty t^{q-1}}\mathcal{P}[|X|>t]\mathrm{d}t$
+:::
+
+## Problema 8
+Sean $X,X_1,X_2,\ldots$ v.a's no negativas tales que $X\in L_1,X_n\stackrel{\mathcal{P}}{\longrightarrow}X$ y $E[X_n]\to E[X]$. Demuestre que $X_n\stackrel{L_1}{\longrightarrow} X$ 

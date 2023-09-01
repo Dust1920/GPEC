@@ -1,0 +1,38 @@
+# Examen 2008
+\newcommand{\D}{\mathrm{d}}
+
+
+\newcommand{\R}{\mathbb{R}}
+
+\newcommand{\PROBABILIDAD}{\mathcal{R}}
+
+## Problema 1
+Sea $(\Omega,\mathcal{F},\mathcal{P})$ un espacio de probabilidad y $X$ una variable aleatoria. Para todo boreliano $A\in\mathcal{B}(\mathbb{R})$ se define 
+$$
+\mathcal{P}(A)=\PROBABILIDAD[X^{-1}(A)]
+$$
+
+1. Demuestre que $\PROBABILIDAD_X$ es una medida de probabilidad en $(\R, \mathcal{B}(\R))$
+2. Demuestre que si $g:\R \to [0,+\infty)$ es Borel medible, entonces
+$$
+\int_{\R}g\mathrm{d}\mathcal{P}_X=\int_\Omega (g\circ P)\D P
+$$
+
+::: callout-note
+Si $g$ es Borel medible, entonces $g^{-1}(A)\in\mathcal{B}(\R)$ para todo $A\in\mathcal{B}(\R)$
+:::
+
+
+## Problema 2
+
+## Problema 3
+
+## Problema 4
+
+## Problema 5
+
+## Problema 6
+
+## Problema 7
+
+## Problema 8

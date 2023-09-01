@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Examen General de Probabilidad",
+    "section": "",
+    "text": "Examen General de Probabiidad\nLibro de Quarto creado como herramienta de estudio para el examen general que será presentado la primera semana de octubre de 2023."
+  },
+  {
+    "objectID": "e2008.html#problema-1",
+    "href": "e2008.html#problema-1",
+    "title": "2  Examen 2008",
+    "section": "2.1 Problema 1",
+    "text": "2.1 Problema 1\nSea \\((\\Omega,\\mathcal{F},\\mathcal{P})\\) un espacio de probabilidad y \\(X\\) una variable aleatoria. Para todo boreliano \\(A\\in\\mathcal{B}(\\mathbb{R})\\) se define \\[\n\\mathcal{P}(A)=\\mathcal{R}[X^{-1}(A)]\n\\]\n\nDemuestre que \\(\\mathcal{R}_X\\) es una medida de probabilidad en \\((\\mathbb{R}, \\mathcal{B}(\\mathbb{R}))\\)}\nDemuestre que si \\(g:\\mathbb{R}\\to [0,+\\infty)\\) es Borel medible, entonces \\[\n\\int_{\\mathbb{R}}g\\mathrm{d}\\mathcal{P}_X=\\int_\\Omega (g\\circ P)\\mathrm{d}P\n\\]\n\n\n\n\n\n\n\nCaution\n\n\n\n\n\nSi \\(g\\) es Borel medible, entonces \\(g^{-1}(A)\\in\\mathcal{B}(\\mathbb{R})\\) para todo \\(A\\in\\mathcal{B}(\\mathbb{R})\\)"
+  },
+  {
+    "objectID": "e2008.html#problema-2",
+    "href": "e2008.html#problema-2",
+    "title": "2  Examen 2008",
+    "section": "2.2 Problema 2",
+    "text": "2.2 Problema 2"
+  },
+  {
+    "objectID": "e2008.html#problema-3",
+    "href": "e2008.html#problema-3",
+    "title": "2  Examen 2008",
+    "section": "2.3 Problema 3",
+    "text": "2.3 Problema 3"
+  },
+  {
+    "objectID": "e2008.html#problema-4",
+    "href": "e2008.html#problema-4",
+    "title": "2  Examen 2008",
+    "section": "2.4 Problema 4",
+    "text": "2.4 Problema 4"
+  },
+  {
+    "objectID": "e2008.html#problema-5",
+    "href": "e2008.html#problema-5",
+    "title": "2  Examen 2008",
+    "section": "2.5 Problema 5",
+    "text": "2.5 Problema 5"
+  },
+  {
+    "objectID": "e2008.html#problema-6",
+    "href": "e2008.html#problema-6",
+    "title": "2  Examen 2008",
+    "section": "2.6 Problema 6",
+    "text": "2.6 Problema 6"
+  },
+  {
+    "objectID": "e2008.html#problema-7",
+    "href": "e2008.html#problema-7",
+    "title": "2  Examen 2008",
+    "section": "2.7 Problema 7",
+    "text": "2.7 Problema 7"
+  },
+  {
+    "objectID": "e2008.html#problema-8",
+    "href": "e2008.html#problema-8",
+    "title": "2  Examen 2008",
+    "section": "2.8 Problema 8",
+    "text": "2.8 Problema 8"
+  },
+  {
+    "objectID": "e2009.html#problema-1",
+    "href": "e2009.html#problema-1",
+    "title": "3  Examen 2009",
+    "section": "3.1 Problema 1",
+    "text": "3.1 Problema 1\nDemuestre que :\n\nPara cualesquiera eventos \\(E\\) y \\(F\\) \\[\n|\\mathcal{P}(E)-\\mathcal{P}(F)|\\leq \\mathcal{P}(E\\triangle F)\n\\]\nSi \\(X\\) y \\(Y\\) son v.a’s y \\(A\\in\\mathcal{F}\\) entonces \\[\n\\left|\\mathcal{P}\\left[X\\in A\\right]-\\mathcal{P}\\left[Y\\in A\\right]\\right|\\leq\\mathcal{P}\\left[X\\neq Y\\right]\n\\]\n\n\n3.1.1 Solución (1.)\nObservemos que \\(F=\\left(F\\cap E\\right)\\cup\\left(F\\cap E^{\\complement}\\right)\\), donde ambos conjuntos son disjuntos, esto implica que \\[\n\\mathcal{P}\\left(F\\right)=\\mathcal{P}\\left(F\\cap E\\right)+\\mathcal{P}\\left(F\\cap E^{\\complement}\\right),\n\\]\nanálogamente para \\(E\\) \\[\n\\mathcal{P}\\left(E\\right)=\\mathcal{P}\\left(E\\cap F\\right)+\\mathcal{P}\\left(E\\cap F^{\\complement}\\right).\n\\]\nPor otro lado \\[\n\\mathcal{P}\\left(E\\triangle F\\right)=\\mathcal{P}\\left(E\\cap F^{\\complement}\\cup F\\cap E^{\\complement}\\right),\n\\]\ncomo \\(E\\cap F^{\\complement}\\) y \\(F\\cap E^{\\complement}\\) son conjuntos disjuntos entonces \\[\n\\mathcal{P}\\left(E\\triangle F\\right)=\\mathcal{P}\\left(E\\cap F^{\\complement}\\right)+\\mathcal{P}\\left(F\\cap E^{\\complement}\\right).\n\\]\nAhora considere \\[\\begin{align*}\n\\mathcal{P}\\left(F\\right)-\\mathcal{P}\\left(E\\right) & =\\mathcal{P}\\left(F\\cap E^{\\complement}\\right)-\\mathcal{P}\\left(E\\cap F^{\\complement}\\right)\\\\\n& \\leq\\mathcal{P}\\left(E\\triangle F\\right),\n\\end{align*}\\]\nde forma análoga tenemos que \\[\n\\mathcal{P}\\left(E\\right)-\\mathcal{P}\\left(F\\right)\\leq\\mathcal{P}\\left(E\\triangle F\\right).\n\\]\nConcluyendo entonces \\[\n\\left|\\mathcal{P}\\left(F\\right)-\\mathcal{P}\\left(E\\right)\\right|\\leq\\mathcal{P}\\left(E\\triangle F\\right)\n\\]\n\n\n3.1.2 Solución (1.2)"
+  },
+  {
+    "objectID": "e2009.html#problema-2",
+    "href": "e2009.html#problema-2",
+    "title": "3  Examen 2009",
+    "section": "3.2 Problema 2",
+    "text": "3.2 Problema 2\nSean \\(\\left(X_{n}\\right)\\) una sucesión de v.a’s que converge en distribución a \\(X\\).\n\nDemuestre que para todo \\(\\epsilon&gt;0\\) existen \\(\\alpha,\\beta\\in\\mathbb{R},a&lt;\\beta\\) tal que \\[\n\\mathcal{P}\\left[X_{n}\\in\\left[\\alpha,\\beta\\right]\\right]\\geq1-\\epsilon,\\forall n\\in\\mathbb{N}\n\\]\nSea \\(S_{n}={\\displaystyle \\sum_{k=1}^{n}X_{k}}\\). Demuestre que si \\(\\dfrac{S_{n}}{\\sqrt{n}}\\) converge en distribución a una v.a \\(Y\\), entonces\n\n\\[\n\\dfrac{S_{n}}{n}\\stackrel{\\mathcal{P}}{\\longrightarrow}0\n\\]"
+  },
+  {
+    "objectID": "e2009.html#problema-3",
+    "href": "e2009.html#problema-3",
+    "title": "3  Examen 2009",
+    "section": "3.3 Problema 3",
+    "text": "3.3 Problema 3\nSea \\(\\left(X_{n}\\right)\\) una sucesión de v.a’s independientes e identicamente distribuidas con distribución uniforme en \\(\\left(0,1\\right)\\). Demuestre que \\(M_{n}={\\displaystyle \\max_{i\\leq i\\leq n}X_{i}}\\) converge en probabilidad cuando \\(n\\to\\infty\\)."
+  },
+  {
+    "objectID": "e2009.html#problema-4",
+    "href": "e2009.html#problema-4",
+    "title": "3  Examen 2009",
+    "section": "3.4 Problema 4",
+    "text": "3.4 Problema 4\nSuponga que \\(X_{n}\\) tiene función de densidad \\(f_{n}\\left(x\\right)=\\dfrac{n}{\\sqrt{x}}\\exp\\left(-\\left(nx-n-1\\right)^{2}\\right),n=1,2\\ldots\\). Demuestre que \\(\\left(X_{n}\\right)\\) converge en probabilidad a una constante."
+  },
+  {
+    "objectID": "e2009.html#problema-5",
+    "href": "e2009.html#problema-5",
+    "title": "3  Examen 2009",
+    "section": "3.5 Problema 5",
+    "text": "3.5 Problema 5\nSea \\(\\left(X_{n}\\right)\\) una sucesión de v.a’s independientes tales que \\(\\mathcal{P}\\left[X_{n}=1\\right]=p\\) y \\(\\mathcal{P}\\left[X_{n}=-1\\right]=1-p,n=1,2,\\ldots\\), con \\(p\\in\\left(0,1\\right),p\\neq1/2\\). Denotemos \\(S_{0}=0\\), \\[\nS_{n}=\\sum_{i=1}^{n}X_{i},n=1,2,\\ldots\n\\]\n\nCalcular \\(\\mathcal{P}\\left[S_{n}=0\\right]\\) para \\(n=1,2,\\ldots\\)\nDemostrar que \\(\\sum_{n=0}^{\\infty}\\mathcal{P}\\left[S_{n}=0\\right]&lt;\\infty\\).\nCalcular \\(\\mathcal{P}\\left[S_{n}=0\\text{ i.o}\\right]\\)\n\n\n\n\n\n\n\nFactorial\n\n\n\nUse la formula de Stirling: \\(n! \\sim \\sqrt{2\\pi n}(n/e)^n\\)"
+  },
+  {
+    "objectID": "e2009.html#problema-6",
+    "href": "e2009.html#problema-6",
+    "title": "3  Examen 2009",
+    "section": "3.6 Problema 6",
+    "text": "3.6 Problema 6\nTomando \\(\\left(X_{n}\\right)\\) y \\(\\left(S_{n}\\right)\\) como en el problema anterior, pero con \\(p=1/2\\).\n\nVerificar que para toda \\(t\\in\\mathbb{R}\\), \\(E\\left[e^{tX_{n}}\\right]=\\cosh\\left(t\\right)\\).\nDeducir que para toda \\(t\\in\\mathbb{R}\\), \\(E\\left[e^{tX_{n}}\\right]\\leq e^{t/2}\\)\n\n\n\n\n\n\n\nTaylor\n\n\n\nUtilice el desarrollo de Taylor de ambos términos de la desigualdad en (1.)\n\n\n\nDemostrar que para todas \\(a&gt;0,n\\geq1\\) y \\(u&gt;0\\) se tiene que \\[\n\\mathcal{P}\\left[S_{n}&gt;a\\right]\\leq\\exp\\left[n\\dfrac{u^{2}}{2}-ua\\right]\n\\]\nDemostrar que \\(\\mathcal{P}\\left[S_{n}&gt;a\\right]\\leq e^{-a^{2}/2n}\\) y por lo tanto \\[\n\\mathcal{P}\\left[\\left|S_{n}\\right|&gt;a\\right]\\leq2\\exp\\left(-\\dfrac{a^{2}}{2n}\\right)\n\\]\nSea \\(c&gt;1\\). Demostrar que, con probabilidad \\(1\\), para \\(n\\) suficientemente grande se tiene que \\(S_{n}\\leq c\\sqrt{2n\\ln\\left(n\\right)}\\)"
+  },
+  {
+    "objectID": "e2009.html#problema-7",
+    "href": "e2009.html#problema-7",
+    "title": "3  Examen 2009",
+    "section": "3.7 Problema 7",
+    "text": "3.7 Problema 7\n\nPruebe que si \\(X\\in L_p\\) para algun \\(p&gt;0\\), entonces \\[\n\\lim_{t\\to\\infty}t^p\\mathcal{P}[|X|&gt;t]=0\n\\]\nPruebe que (1.) implica que \\(X\\in L_p\\) para toda \\(q\\in(0,p)\\).\n\n\n\n\n\n\n\nFubini-Tonelli\n\n\n\nUse el Teorema de Fubini-Tonelli a \\({\\displaystyle \\int_0^\\infty t^{q-1}}\\mathcal{P}[|X|&gt;t]\\mathrm{d}t\\)"
+  },
+  {
+    "objectID": "e2009.html#problema-8",
+    "href": "e2009.html#problema-8",
+    "title": "3  Examen 2009",
+    "section": "3.8 Problema 8",
+    "text": "3.8 Problema 8\nSean \\(X,X_1,X_2,\\ldots\\) v.a’s no negativas tales que \\(X\\in L_1,X_n\\stackrel{\\mathcal{P}}{\\longrightarrow}X\\) y \\(E[X_n]\\to E[X]\\). Demuestre que \\(X_n\\stackrel{L_1}{\\longrightarrow} X\\)"
+  },
+  {
+    "objectID": "Resnick_problems.html",
+    "href": "Resnick_problems.html",
+    "title": "4  Problemas Resnick",
+    "section": "",
+    "text": "En esta parte veremos los problemas planteados del libro Resnick."
+  }
+]

@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Examen General de Probabilidad"
+  author: "David Peña / Susana Nuñez / "
+  date: "1/9/2023"
+  chapters:
+    - index.qmd
+    - notation.qmd
+    - e2008.qmd
+    - e2009.qmd
+    - Resnick_problems.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

@@ -1,0 +1,29 @@
+{
+  "index.qmd": {
+    "index.html": "8d6a39f4"
+  },
+  "intro.qmd": {
+    "intro.html": "825f3312"
+  },
+  "summary.qmd": {
+    "summary.html": "19fff80c"
+  },
+  "references.qmd": {
+    "references.html": "48dd508e"
+  },
+  "Examen_01.qmd": {
+    "Examen_01.html": "db9b54e8"
+  },
+  "Resnick_problems.qmd": {
+    "Resnick_problems.html": "a320194d"
+  },
+  "e2009.qmd": {
+    "e2009.html": "8733dea6"
+  },
+  "e2008.qmd": {
+    "e2008.html": "c81bb2a0"
+  },
+  "notation.qmd": {
+    "notation.html": "93004382"
+  }
+}

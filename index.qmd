@@ -1,0 +1,3 @@
+# Examen General de Probabiidad {.unnumbered}
+
+Libro de Quarto creado como herramienta de estudio para el examen general que será presentado la primera semana de octubre de 2023.

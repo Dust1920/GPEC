@@ -1,0 +1,3 @@
+# Problemas Resnick
+
+En esta parte veremos los problemas planteados del libro Resnick. 
