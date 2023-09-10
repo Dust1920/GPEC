@@ -1,9 +1,6 @@
 # Examen 2008
 \newcommand{\D}{\mathrm{d}}
-
-
 \newcommand{\R}{\mathbb{R}}
-
 \newcommand{\PROBABILIDAD}{\mathcal{R}}
 
 ## Problema 1
